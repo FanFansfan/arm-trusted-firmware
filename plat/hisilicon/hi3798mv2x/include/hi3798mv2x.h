@@ -89,12 +89,12 @@
 #define HISI_IRQ_SEC_SGI_5		13
 #define HISI_IRQ_SEC_SGI_6		14
 #define HISI_IRQ_SEC_SGI_7		15
-#define HISI_IRQ_SEC_PPI_0		29
+#define HISI_IRQ_SEC_PPI_0		29 // mv200?
 #define HISI_IRQ_SEC_TIMER0		60
 #define HISI_IRQ_SEC_TIMER1		50
 #define HISI_IRQ_SEC_TIMER2		52
 #define HISI_IRQ_SEC_TIMER3		88
-#define HISI_IRQ_SEC_AXI		110
+#define HISI_IRQ_SEC_AXI		110 // mv200?
 
 /* Watchdog */
 #define HISI_WDG0_BASE			(0xF8A2C000)

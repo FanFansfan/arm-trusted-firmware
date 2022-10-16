@@ -91,7 +91,7 @@ static void hi3798mv2x_pwr_domain_suspend_finish(
 
 static void __dead2 hi3798mv2x_system_off(void)
 {
-	ERROR("Poplar System Off: operation not handled.\n");
+	ERROR("Hi3798mv2x System Off: operation not handled.\n");
 	panic();
 }
 
@@ -102,7 +102,7 @@ static void __dead2 hi3798mv2x_system_reset(void)
 	mmio_write_32((uintptr_t)(HISI_WDG0_BASE + 0x8),   0x00000003);
 
 	wfi();
-	ERROR("Poplar System Reset: operation not handled.\n");
+	ERROR("Hi3798mv2x System Reset: operation not handled.\n");
 	panic();
 }
 
